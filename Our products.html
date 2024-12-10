@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Plans - Healthy Recipe Hub</title>
+    <link rel="stylesheet" href="combined css.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Healthy Recipe Hub</div>
+            <ul class="nav-links">
+                <li><a href="indexpage.html">Home</a></li>
+                <li><a href="Our products.html">Our Products</a></li>
+                <li><a href="consultation page.html">Consultation</a></li>
+                <li><a href="recipe generator page.html">Recipe Generator</a></li>
+                <li><a href="about us page.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <h1>Diet Plans</h1>
+            <p>Discover a variety of diet plans tailored for specific health conditions and goals. Click on a plan to learn more.</p>
+
+            <div class="courses">
+                <div class="course-card" data-course="diabetic">
+                    <h2>Diabetic-Friendly Diet</h2>
+                    <p>A plan designed to maintain healthy blood sugar levels.</p>
+                    <button class="btn">View Plan</button>
+                </div>
+
+                <div class="course-card" data-course="heart">
+                    <h2>Heart-Healthy Diet</h2>
+                    <p>Support cardiovascular health with these meal recommendations.</p>
+                    <button class="btn">View Plan</button>
+                </div>
+
+                <div class="course-card" data-course="weight">
+                    <h2>Weight Loss Diet</h2>
+                    <p>Effective and balanced meals to help you shed excess weight.</p>
+                    <button class="btn">View Plan</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <h1>Fitness Courses</h1>
+            <p>Explore our range of fitness courses designed for every fitness level. Achieve your health goals with expert guidance.</p>
+
+            <div class="courses">
+                <div class="course-card" data-course="yoga">
+                    <h2>Beginner Yoga</h2>
+                    <p>A gentle introduction to yoga for relaxation and flexibility.</p>
+                    <button class="btn">Enroll Now</button>
+                </div>
+
+                <div class="course-card" data-course="strength">
+                    <h2>Strength Training</h2>
+                    <p>Build muscle and improve endurance with our strength training program.</p>
+                    <button class="btn">Enroll Now</button>
+                </div>
+
+                <div class="course-card" data-course="cardio">
+                    <h2>Cardio Blast</h2>
+                    <p>Boost your cardiovascular health with high-energy workouts.</p>
+                    <button class="btn">Enroll Now</button>
+                </div>
+
+                <div class="course-card" data-course="pilates">
+                    <h2>Advanced Pilates</h2>
+                    <p>Challenge yourself with advanced Pilates routines for core strength.</p>
+                    <button class="btn">Enroll Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="overlay"></div>
+
+    <div id="popup" class="popup">
+        <span class="close">&times;</span>
+        <img id="popup-image" src="" alt="Course Details">
+        <p id="popup-text"></p>
+        <iframe id="popup-document" src="" frameborder="0" style="width: 100%; height: 300px;"></iframe>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2024 Healthy Recipe Hub. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const courses = {
+            diabetic: {
+                image: "diabetic course.webp",
+                text: "A detailed diet plan to manage diabetes effectively.",
+                document: "diabetic-plan.pdf" // Replace with your document URL
+            },
+            heart: {
+                image: "heart.jpg",
+                text: "A heart-healthy diet focusing on reducing cholesterol levels.",
+                document: "heart-healthy-plan.pdf"
+            },
+            weight: {
+                image: "weight.jpg",
+                text: "A balanced diet plan for sustainable weight loss.",
+                document: "weight-loss-plan.pdf"
+            },
+            yoga: {
+                image: "yoga.jpg",
+                text: "Learn the basics of yoga and improve your flexibility.",
+                document: "beginner-yoga-guide.pdf"
+            },
+            strength: {
+                image: "strength.jpg",
+                text: "Build strength with a structured weightlifting program.",
+                document: "strength-training-guide.pdf"
+            },
+            cardio: {
+                image: "cardio.jpg",
+                text: "Engage in high-energy cardio workouts for endurance.",
+                document: "cardio-blast-workouts.pdf"
+            },
+            pilates: {
+                image: "pilates.jpg",
+                text: "Advance your Pilates practice for better core strength.",
+                document: "advanced-pilates-guide.pdf"
+            }
+        };
+    
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', (event) => {
+                const courseKey = event.target.closest('.course-card').dataset.course;
+                const courseDetails = courses[courseKey];
+    
+                document.getElementById('popup-image').src = courseDetails.image;
+                document.getElementById('popup-text').textContent = courseDetails.text;
+                document.getElementById('popup-document').src = courseDetails.document;
+    
+                document.querySelector('.overlay').style.display = 'block';
+                document.getElementById('popup').style.display = 'block';
+            });
+        });
+    
+        document.querySelector('.popup .close').addEventListener('click', () => {
+            document.querySelector('.overlay').style.display = 'none';
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('popup-document').src = ""; // Reset the iframe source
+        });
+    
+        document.querySelector('.overlay').addEventListener('click', () => {
+            document.querySelector('.overlay').style.display = 'none';
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('popup-document').src = ""; // Reset the iframe source
+        });
+    </script>
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+[
+  {
+    "name": "Vegetable Stir Fry",
+    "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce"],
+    "instructions": "Chop vegetables, stir fry in a pan with soy sauce."
+  },
+  {
+    "name": "Pasta Primavera",
+    "ingredients": ["pasta", "tomato", "zucchini", "olive oil"],
+    "instructions": "Boil pasta, sauté vegetables in olive oil, mix."
+  },
+  {
+    "name": "Quinoa Salad",
+    "ingredients": ["quinoa", "cucumber", "tomato", "lemon juice", "parsley"],
+    "instructions": "Cook quinoa, chop vegetables, mix with lemon juice and parsley."
+  },
+  {
+    "name": "Avocado Toast",
+    "ingredients": ["bread", "avocado", "lemon juice", "salt", "pepper"],
+    "instructions": "Toast bread, mash avocado with lemon juice, spread on bread, season with salt and pepper."
+  },
+  {
+    "name": "Berry Smoothie",
+    "ingredients": ["strawberry", "blueberry", "banana", "almond milk", "honey"],
+    "instructions": "Blend all ingredients until smooth."
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": ["cucumber", "tomato", "feta cheese", "olive oil", "oregano"],
+    "instructions": "Chop vegetables, crumble feta, mix with olive oil and oregano."
+  },
+  {
+    "name": "Oatmeal Bowl",
+    "ingredients": ["oats", "milk", "banana", "honey", "nuts"],
+    "instructions": "Cook oats in milk, top with sliced banana, honey, and nuts."
+  },
+  {
+    "name": "Chickpea Curry",
+    "ingredients": ["chickpeas", "tomato", "onion", "coconut milk", "curry powder"],
+    "instructions": "Sauté onion, add tomato, chickpeas, coconut milk, and curry powder, simmer until thickened."
+  },
+  {
+    "name": "Grilled Chicken Salad",
+    "ingredients": ["chicken breast", "lettuce", "tomato", "cucumber", "olive oil"],
+    "instructions": "Grill chicken, chop vegetables, toss together with olive oil."
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "ingredients": ["bell pepper", "quinoa", "black beans", "tomato", "cheese"],
+    "instructions": "Hollow bell peppers, stuff with cooked quinoa, black beans, and tomato, bake with cheese on top."
+  },
+  {
+    "name": "Baked Salmon",
+    "ingredients": ["salmon", "lemon", "garlic", "dill", "olive oil"],
+    "instructions": "Season salmon with lemon, garlic, dill, and olive oil, bake until cooked."
+  },
+  {
+    "name": "Sweet Potato Fries",
+    "ingredients": ["sweet potato", "olive oil", "paprika", "salt"],
+    "instructions": "Cut sweet potato into wedges, toss with olive oil and paprika, bake until crispy."
+  },
+  {
+    "name": "Mango Chia Pudding",
+    "ingredients": ["mango", "chia seeds", "coconut milk", "honey"],
+    "instructions": "Mix chia seeds with coconut milk and honey, let sit overnight, top with mango."
+  },
+  {
+    "name": "Spinach Omelette",
+    "ingredients": ["egg", "spinach", "onion", "cheese", "salt"],
+    "instructions": "Whisk eggs, sauté spinach and onion, pour eggs over, add cheese, cook until set."
+  },
+  {
+    "name": "Lentil Soup",
+    "ingredients": ["lentils", "carrot", "onion", "celery", "vegetable broth"],
+    "instructions": "Cook lentils with chopped vegetables in vegetable broth until tender."
+  },
+  {
+    "name": "Tomato Soup",
+    "ingredients": ["tomato", "onion", "garlic", "vegetable broth", "basil"],
+    "instructions": "Sauté onions and garlic, add tomatoes and vegetable broth, and simmer with basil."
+  },
+  {
+    "name": "Pasta Primavera",
+    "ingredients": ["pasta", "broccoli", "bell pepper", "zucchini", "tomato", "olive oil"],
+    "instructions": "Cook pasta and toss with sautéed vegetables and olive oil."
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic", "ginger"],
+    "instructions": "Stir-fry vegetables in a pan with garlic, ginger, and soy sauce."
+  },
+  {
+    "name": "Quinoa Salad",
+    "ingredients": ["quinoa", "cucumber", "tomato", "feta cheese", "olive oil", "lemon"],
+    "instructions": "Cook quinoa, mix with diced vegetables, feta cheese, olive oil, and lemon juice."
+  },
+  {
+    "name": "Chickpea Curry",
+    "ingredients": ["chickpeas", "coconut milk", "onion", "garlic", "ginger", "curry powder"],
+    "instructions": "Cook onions, garlic, and ginger, then add chickpeas, coconut milk, and curry powder. Simmer."
+  },
+  {
+    "name": "Sweet Potato Mash",
+    "ingredients": ["sweet potato", "butter", "salt", "pepper"],
+    "instructions": "Boil sweet potatoes, mash with butter, salt, and pepper."
+  },
+  {
+    "name": "Cucumber Sandwich",
+    "ingredients": ["cucumber", "whole wheat bread", "cream cheese", "dill"],
+    "instructions": "Spread cream cheese on bread, top with cucumber slices, and garnish with dill."
+  },
+  {
+    "name": "Vegetable Tacos",
+    "ingredients": ["taco shells", "black beans", "corn", "avocado", "tomato", "lettuce"],
+    "instructions": "Fill taco shells with black beans, corn, diced tomatoes, avocado, and lettuce."
+  },
+  {
+    "name": "Spinach and Ricotta Stuffed Shells",
+    "ingredients": ["pasta shells", "spinach", "ricotta cheese", "parmesan", "tomato sauce"],
+    "instructions": "Stuff pasta shells with spinach and ricotta, top with tomato sauce, and bake."
+  },
+  {
+    "name": "Avocado Toast",
+    "ingredients": ["avocado", "bread", "lemon", "chili flakes"],
+    "instructions": "Mash avocado with lemon juice and spread on toasted bread. Sprinkle with chili flakes."
+  },
+  {
+    "name": "Lentil Salad",
+    "ingredients": ["lentils", "tomato", "cucumber", "feta cheese", "lemon", "olive oil"],
+    "instructions": "Mix cooked lentils with diced veggies, feta cheese, olive oil, and lemon juice."
+  },
+  {
+    "name": "Minestrone Soup",
+    "ingredients": ["carrot", "celery", "onion", "garlic", "tomato", "vegetable broth", "pasta"],
+    "instructions": "Sauté vegetables, add broth, tomatoes, and pasta, and simmer until pasta is cooked."
+  },
+  {
+    "name": "Zucchini Fritters",
+    "ingredients": ["zucchini", "egg", "flour", "cheese", "salt", "pepper"],
+    "instructions": "Grate zucchini, mix with other ingredients, form patties, and fry."
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": ["cucumber", "tomato", "red onion", "feta cheese", "olive oil", "oregano"],
+    "instructions": "Combine chopped veggies, feta, and olive oil, and sprinkle with oregano."
+  },
+  {
+    "name": "Hummus",
+    "ingredients": ["chickpeas", "tahini", "lemon", "garlic", "olive oil"],
+    "instructions": "Blend chickpeas, tahini, lemon juice, garlic, and olive oil until smooth."
+  },
+  {
+    "name": "Apple Cinnamon Oatmeal",
+    "ingredients": ["oats", "apple", "cinnamon", "honey", "milk"],
+    "instructions": "Cook oats with milk, add diced apple, cinnamon, and honey."
+  },
+  {
+    "name": "Cauliflower Rice",
+    "ingredients": ["cauliflower", "garlic", "olive oil", "salt", "pepper"],
+    "instructions": "Grate cauliflower, sauté with garlic in olive oil, and season with salt and pepper."
+  },
+  {
+    "name": "Veggie Burger",
+    "ingredients": ["black beans", "carrot", "onion", "bread crumbs", "egg", "burger buns"],
+    "instructions": "Mash black beans, mix with grated veggies and breadcrumbs, form patties, and fry. Serve on buns."
+  },
+  {
+    "name": "Mango Smoothie",
+    "ingredients": ["mango", "banana", "yogurt", "milk", "honey"],
+    "instructions": "Blend mango, banana, yogurt, milk, and honey until smooth."
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "ingredients": ["bell peppers", "quinoa", "tomato", "onion", "cheese"],
+    "instructions": "Stuff bell peppers with cooked quinoa, tomatoes, and onions, top with cheese, and bake."
+  },
+  {
+    "name": "Tomato Basil Pasta",
+    "ingredients": ["pasta", "tomato", "basil", "garlic", "olive oil"],
+    "instructions": "Cook pasta, toss with sautéed tomatoes, garlic, and olive oil, and garnish with fresh basil."
+  },
+  {
+    "name": "Chia Pudding",
+    "ingredients": ["chia seeds", "almond milk", "honey", "vanilla extract"],
+    "instructions": "Mix chia seeds with almond milk, honey, and vanilla, and refrigerate overnight."
+  },
+  {
+    "name": "Garlic Bread",
+    "ingredients": ["bread", "butter", "garlic", "parsley"],
+    "instructions": "Spread butter and garlic on bread, bake until golden, and sprinkle with parsley."
+  },
+  {
+    "name": "Carrot Cake",
+    "ingredients": ["carrot", "flour", "sugar", "egg", "baking powder", "cinnamon", "cream cheese"],
+    "instructions": "Mix grated carrots with dry ingredients, bake, and top with cream cheese frosting."
+  },
+  {
+    "name": "Cabbage Stir-Fry",
+    "ingredients": ["cabbage", "onion", "soy sauce", "garlic", "ginger"],
+    "instructions": "Stir-fry cabbage with onion, garlic, ginger, and soy sauce."
+  },
+  {
+    "name": "Potato Salad",
+    "ingredients": ["potatoes", "mayonnaise", "mustard", "onion", "pickle"],
+    "instructions": "Boil potatoes, mix with mayonnaise, mustard, onions, and pickles."
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "ingredients": ["eggplant", "tomato sauce", "cheese", "breadcrumbs", "olive oil"],
+    "instructions": "Bread and fry eggplant slices, layer with tomato sauce and cheese, then bake."
+  },
+  {
+    "name": "Mushroom Risotto",
+    "ingredients": ["arborio rice", "mushroom", "onion", "garlic", "vegetable broth", "parmesan"],
+    "instructions": "Sauté onions, garlic, and mushrooms, then add rice and broth, and cook until creamy. Top with parmesan."
+  },
+  {
+    "name": "Peanut Butter Banana Smoothie",
+    "ingredients": ["banana", "peanut butter", "milk", "honey", "ice"],
+    "instructions": "Blend banana, peanut butter, milk, honey, and ice until smooth."
+  },
+  {
+    "name": "Fried Rice",
+    "ingredients": ["rice", "carrot", "onion", "egg", "soy sauce", "peas"],
+    "instructions": "Stir-fry vegetables, add rice and soy sauce, and mix in scrambled egg."
+  },
+  {
+    "name": "Baked Ziti",
+    "ingredients": ["ziti pasta", "tomato sauce", "mozzarella", "parmesan", "garlic"],
+    "instructions": "Cook pasta, mix with tomato sauce, top with cheese, and bake."
+  },
+  {
+    "name": "Spinach Artichoke Dip",
+    "ingredients": ["spinach", "artichoke", "cream cheese", "parmesan", "garlic", "lemon"],
+    "instructions": "Mix spinach, artichokes, cream cheese, and garlic, bake, and serve with crackers."
+  },
+  {
+    "name": "Berry Parfait",
+    "ingredients": ["yogurt", "berries", "granola", "honey"],
+    "instructions": "Layer yogurt, berries, and granola in a glass, drizzle with honey."
+  },
+  {
+    "name": "Baked Sweet Potatoes",
+    "ingredients": ["sweet potatoes", "olive oil", "salt", "pepper"],
+    "instructions": "Drizzle sweet potatoes with olive oil, season, and bake until tender."
+  },
+  {
+    "name": "Chickpea Salad",
+    "ingredients": ["chickpeas", "tomato", "cucumber", "onion", "olive oil", "lemon"],
+    "instructions": "Mix chickpeas with chopped vegetables, olive oil, and lemon juice."
+  },
+  {
+    "name": "Baked Apples",
+    "ingredients": ["apples", "cinnamon", "honey", "butter"],
+    "instructions": "Core apples, fill with cinnamon and honey, and bake with butter."
+  },
+  {
+    "name": "Cauliflower Pizza Crust",
+    "ingredients": ["cauliflower", "cheese", "egg", "garlic"],
+    "instructions": "Grate cauliflower, mix with cheese, egg, and garlic, bake until crispy."
+  },
+  {
+    "name": "Tomato and Cucumber Salad",
+    "ingredients": ["tomato", "cucumber", "red onion", "olive oil", "balsamic vinegar"],
+    "instructions": "Mix sliced tomatoes, cucumbers, and onions, and drizzle with olive oil and balsamic vinegar."
+  }
+]

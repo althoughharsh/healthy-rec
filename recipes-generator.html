@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Recipe Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo" style="padding:0rem;"><img src="images/logo.png" alt="logo" style="height: 120px; width: 120px;"></div>
+        <p class="logo">Healthy Recipe Hub</p>
+    </header>
+    
+    <header class="stick">
+        <nav>        
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Our Products</a></li>
+                <li><a href="consultation.html">Consultation</a></li>
+                <li><a href="recipes-generator.html">Recipe Generator</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>        
+        </nav>  
+    </header>
+
+    <div class="container">
+        <div class="recipe-card">
+            <div class="recipe-details">
+                <h1 class="recipe-title">Recipe Finder</h1>
+                <hr>
+
+                <div class="hero">
+                    <div class="hero-content">
+                        <input type="text" id="ingredientsInput" placeholder="Enter ingredients, separated by commas">
+                        <button onclick="findRecipes()" class="btn">Find Recipes</button>
+                    </div>
+                </div>
+                
+                <div id="results"></div>
+                <script>
+                  let recipes = [];
+                
+                  // Load the JSON file
+                  fetch('recipes.json')
+                    .then(response => {
+                      if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                      }
+                      return response.json();
+                    })
+                    .then(data => {
+                      recipes = data;
+                    })
+                    .catch(error => console.error('Error loading JSON:', error));
+                
+                  function findRecipes() {
+                    const input = document.getElementById("ingredientsInput").value.toLowerCase().trim();
+                    if (!input) {
+                      alert("Please enter at least one ingredient!");
+                      return;
+                    }
+                
+                    const userIngredients = input.split(",").map(ing => ing.trim());
+                
+                    const matchingRecipes = recipes
+                      .map(recipe => {
+                        const matchCount = recipe.ingredients.filter(ingredient =>
+                          userIngredients.includes(ingredient.toLowerCase())
+                        ).length;
+                
+                        return { ...recipe, matchCount };
+                      })
+                      .filter(recipe => recipe.matchCount > 0) // Show only recipes with matches
+                      .sort((a, b) => b.matchCount - a.matchCount); // Sort by match count
+                
+                    displayResults(matchingRecipes);
+                  }
+                
+                  function displayResults(matchingRecipes) {
+                    const resultsDiv = document.getElementById("results");
+                    resultsDiv.innerHTML = ""; // Clear previous results
+                
+                    if (matchingRecipes.length === 0) {
+                      resultsDiv.innerHTML = "<p>No recipes found! Try different ingredients.</p>";
+                      return;
+                    }
+                
+                    matchingRecipes.forEach(recipe => {
+                      const recipeDiv = document.createElement("div");
+                      recipeDiv.innerHTML = `
+                        <h3>${recipe.name}</h3>
+                        <p><strong>Ingredients:</strong> ${recipe.ingredients.join(", ")}</p>
+                        <p><strong>Instructions:</strong> ${recipe.instructions}</p>
+                        <p><strong>Matching Ingredients:</strong> ${recipe.matchCount}</p>
+                      `;
+                      resultsDiv.appendChild(recipeDiv);
+                    });
+                  }
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Healthy Recipe Hub. All rights reserved.</p>
+    </footer>
+  
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Recipe Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo" style="padding:0rem;"><img src="images/logo.png" alt="logo" style="height: 120px; width: 120px;"></div>
+        <p class="logo">Healthy Recipe Hub</p>
+    </header>
+    
+    <header class="stick">
+        <nav>        
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Our Products</a></li>
+                <li><a href="consultation.html">Consultation</a></li>
+                <li><a href="recipes-generator.html">Recipe Generator</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>        
+        </nav>  
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="recipe-card">
+                <div class="recipe-details">
+                    <section class="content">
+                        <h1 class="recipe-title">Consultation</h1>
+                        <hr>
+                        <p style="font-size: large;">Book a consultation with our expert dietitians and health professionals to create a personalized health plan.</p>
+
+                        <form class="consultation-form">
+                            <label for="name">Full Name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Your Name" style="width: 240px; height: 30px;" required><br><br>
+
+                            <label for="email">Email Address:</label><br>
+                            <input type="email" id="email" name="email" placeholder="Your Email" style="width: 240px; height: 30px;" required><br><br>
+
+                            <label for="phone">Phone Number:</label><br>
+                            <input type="tel" id="phone" name="phone" style="width: 240px; height: 30px;" placeholder="Your Phone Number" required><br><br>
+
+                            <label for="date">Preferred Date:</label><br>
+                            <input type="date" id="date" name="date" style="height: 30px;" required><br><br>
+
+                            <label for="message">Message or Health Concerns:</label><br>
+                            <input type="text" id="message" name="message" style="height: 200px; width: 800px;" placeholder="Describe your health concerns or requirements"></input><br><br>
+
+                            <div class="hero">
+                                <div class="hero-content">
+                                    <button type="submit" class="btn">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Healthy Recipe Hub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

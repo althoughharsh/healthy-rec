@@ -11,6 +11,11 @@
     background-color: #fff;
 }
 
+
+.logo {
+    
+}
+
 button {
     width: 80%; /* Make the button the same width as the input */
     padding: 10px 15px;
@@ -175,24 +180,6 @@ p {
     margin: 20px auto;
 }
 
-.filters {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.filter-button {
-    padding: 10px 20px;
-    background-color: #f753ad;
-    border: none;
-    cursor: pointer;
-    /* font-family: Haettenschweiler; */
-}
-
-.filter-button:hover {
-    background-color: #fe8ef4;
-}
-
 .recipe-card {
     display: flex;
     justify-content: space-between;
@@ -247,12 +234,21 @@ body {
 
 
 header {
-    background-color: #228B22;
-    /* position: sticky; */
+    background-color: #6F9D84;
     top: 0;
     padding: 10px 0;
     display: flex;
     text-align: center;
+}
+
+.abc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background: #33915d;
+    width: 100%;
+    /* margin-left: 20px; */
+    
 }
 
 .hero {
@@ -284,7 +280,7 @@ nav {
     border-radius: 1rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     color: #000000;
-    
+    transform: translate(38%, 0%); 
 }
 
 nav a {

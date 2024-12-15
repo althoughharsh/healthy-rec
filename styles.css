@@ -11,9 +11,24 @@
     background-color: #fff;
 }
 
-
 .logo {
-    
+    display: inline-block;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffcc80; /* Primary color for the logo */
+    text-decoration: none; /* Removes underline if it's a link */
+    padding: 10px;
+
+    border-radius: 150px; /* Rounded edges */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo:hover {
+    color: #ffffff; /* Change text color on hover */
+    background-color: #3a867e; /* Add background on hover */
+    transform: scale(1.1); /* Slightly enlarge the logo */
 }
 
 button {
@@ -36,7 +51,7 @@ button:hover {
 }
 
 #results div {
-    background-color: #c9ffad;
+    background-color: #2b8f85;
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -107,7 +122,7 @@ footer {
 .course-card .btn {
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #2a4e9c;
+    background-color: #008B8B;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -213,19 +228,6 @@ p {
     font-style: italic;
 }
 
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* -------------------------------------------------- */
-/* ---------------------------------------------- */
 body {
     margin: 0;
     padding: 0;
@@ -234,22 +236,32 @@ body {
 
 
 header {
-    background-color: #6F9D84;
-    top: 0;
-    padding: 10px 0;
+    background:#004d40;
+    background-color: #ff008c; /* Header background color */
     display: flex;
-    text-align: center;
+    justify-content: center; /* Centers the logo horizontally */
+    align-items: center; /* Centers the logo vertically */
+    height: 80px; /* Set a suitable height */
 }
 
 .abc{
     display: flex;
     justify-content: space-between;
     align-items: center ;
-    background: #33915d;
+    background:#004d40;
     width: 100%;
     /* margin-left: 20px; */
     
 }
+.webname {
+    align-items: center;
+    text-align: center;
+    color: #FDFDFD;
+    /* padding-left: 550px; */
+    font-size: 60px;
+    text-decoration: none;
+}
+
 
 .hero {
     margin: 0;
@@ -274,28 +286,28 @@ header {
 }
 
 nav {
-    background-color: #007bff;
-    display: inline-flex;
-    background-color: #ffffff;
+    background-color: #0a705f;
+    display: flex; /* Use flex for centering */
+    justify-content: center; /* Centers the links horizontally */
     border-radius: 1rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     color: #000000;
-    transform: translate(38%, 0%); 
 }
 
+
 nav a {
-    color: white;
+    color: #0a705f;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 1.1em;
 }
 
 nav a:hover {
-    background-color: #bebebe;
+    background-color: #3a867e;
 }
 
 .nav-links {
-
+    background-color: #0a705f;
     list-style: none;
     display: inline-flex;
 }
@@ -303,29 +315,29 @@ nav a:hover {
 .stick {
     position: sticky;
     top: 0;
+    justify-content: center;
+    background-color:#004d40 ;
 }
 
 .nav-links a {
-    margin: 20px;
-    align-items: center;
-    color: #000000;
+    color:#ffffff;
     text-decoration: none;
     border-radius: 1rem;
 }
 
-input, select {
+input, select,textarea {
     border-radius: 0.4rem;
     border-width: 2px;
     background-color: #e9f9dc;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-input:hover, select:hover {
+input:hover, select:hover , textarea:hover {
     background-color: #c3fdb4;
 }
 
 footer {
-    background-color: #006400;
+    background-color: #004d40;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -340,6 +352,32 @@ td {
     text-align: center;
     padding: 1rem;
 }
+
+.feedback-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1460px;
+    justify-content: space-between;
+}
+.submit {
+        background-color: #008B8B;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+    
+.submit:hover {
+        background-color: #56c6b5;
+    }
+    
+
 
 /* -------------------------------------------------- */
 /* -------------------------------------------------- */

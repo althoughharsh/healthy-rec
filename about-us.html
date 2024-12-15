@@ -10,8 +10,11 @@
 
 <body>
     <div class="abc">
-        <h1 style="padding-left: 20px; color: #FDFDFD">Healthy Recipe Hub</h1>
-        <img src="images/logo.png" alt="logo" style="height: 120px; width: 120px;">
+        <div class="logo"><a href="index.html"><img class="logo" src="images/logo.png" alt="logo" style="height: 120px; width: 120px;"></a></div>
+        <a href="index.html" class="webname">Healthy Recipe Hub</a>
+        <nav style="margin-right: 20px;">
+            <a href="" style="color: aliceblue; padding: 15px">LOGIN</a>
+        </nav>
     </div>
     
     <header class="stick">
@@ -41,30 +44,26 @@
                     <p>We envision a world where healthy eating and active living are accessible to everyone. We aim to provide resources and tools that make this lifestyle enjoyable and sustainable.</p>
                 </div>
             </div>
+            <div class="recipe-card">
+                <div class="recipe-details">
+                    <h2 class="recipe-title">Coming soon</h2>
+                    <ul>
+                    <li>AI-Powered Recipe Generation</li>
+                    <li>Community Outreach and Comment Section</li>
+                    <li>AI Chatbot</li>
+                   
+                    <li> Personalized Trainers and Dietitians</li>
+                    <li>Quality of Life Upgrades and many more....</li>
+                    </ul>
+                       
+                        </p>
+                </div>
+            </div>
 
             <div class="recipe-card">
                 <div class="recipe-details">
                     <h2 class="recipe-title">Our Team</h2>
                     <p>We are a group of passionate dietitians, fitness trainers, and wellness experts dedicated to helping you achieve your health goals. Our team is committed to offering evidence-based advice and guidance.</p>
-                </div>
-            </div>
-
-            <div class="recipe-card">
-                <div class="recipe-details">
-                    <h2 class="recipe-title">Why Choose Us?</h2>
-                    <ul>
-                        <li>Comprehensive daily diet plans tailored to specific health conditions</li>
-                        <li>Expert consultations with qualified health professionals</li>
-                        <li>Innovative recipe generator for healthy meal ideas</li>
-                        <li>Diverse fitness courses for all levels</li>
-                        <li>A commitment to launching innovative health products in the future</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="recipe-card">
-                <div class="recipe-details">
-                    <h2 class="recipe-title"> Our Team </h2>
                     <hr>
                     <table align="center">
                         <tr>
@@ -86,6 +85,47 @@
                     </table>
                 </div>
             </div>
+
+            <div class="recipe-card">
+                <div class="recipe-details">
+                    <h2 class="recipe-title">Why Choose Us?</h2>
+                    <ul>
+                        <li>Comprehensive daily diet plans tailored to specific health conditions</li>
+                        <li>Expert consultations with qualified health professionals</li>
+                        <li>Innovative recipe generator for healthy meal ideas</li>
+                        <li>Diverse fitness courses for all levels</li>
+                        <li>A commitment to launching innovative health products in the future</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="feedback-container">
+            <h1>Feedback Form</h1>
+            <form id="feedback-form">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br>
+                <br>
+    
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br>
+                <br>
+    
+                <label for="message">Feedback:</label>
+                <br>
+                
+        
+                <textarea id="message" name="message" placeholder="Write your feedback here..." rows="5" required></textarea>
+                <br>
+                <br>
+    
+                <input type="submit" class="submit"></input>
+            </form>
         </div>
     </main>
 
